@@ -1,0 +1,15 @@
+{
+  "site": [
+    {
+      "@name": "http://127.0.0.1:8080",
+      "alerts": [
+        {
+          "pluginid": "10020",
+          "alert": "Missing Anti-clickjacking Header",
+          "riskdesc": "Medium (High)",
+          "desc": "Sample baseline finding for local demo app."
+        }
+      ]
+    }
+  ]
+}

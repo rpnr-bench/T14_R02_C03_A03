@@ -1,0 +1,9 @@
+services:
+  demo-app:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: python app.py
+    ports:
+      - "127.0.0.1:8080:8080"

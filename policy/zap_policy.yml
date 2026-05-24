@@ -1,0 +1,4 @@
+thresholds:
+  high: fail
+  medium: warn
+  low: pass
